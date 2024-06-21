@@ -1,0 +1,44 @@
+@font-face {
+	font-family: WixMade;
+	src: url("/font/WixMadeforDisplay-SemiBold.ttf");
+  }
+  
+  * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  .wrapper {
+	padding: 40px 110px;
+  }
+  
+  .logo img {
+	width: 200px;
+  }
+  
+  header {
+	display: flex;
+	font-size: 30px;
+	justify-content: space-between;
+	font-family: WixMade;
+  }
+  .content{
+display: flex;
+font-size:35px;
+}
+.map {
+	margin-right: 100px;
+	width: 1000px;
+	height: 500px;
+	
+}
+#map-test{
+border-radius: 30px;
+}
+.lor{
+width: 500px;text-align: justify;
+}
+[class*="copyrights-pane"] {
+	display: none !important;
+}
